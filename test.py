@@ -1,4 +1,4 @@
-#  PROJECT NOVA 2024, University of Engineeering and Management, Jaipur
+#  University of Engineeering and Management, Jaipur
 #  Department of Computer Science and Engineering , Artifical Intelligence and Machine Learning , Batch 2023-2027 
 # editable link: https://prod.liveshare.vsengsaas.visualstudio.com/join?70F345567DC0DBE79AC4724D7594D1E7390C
 
