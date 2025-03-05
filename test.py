@@ -23,6 +23,8 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)  
 engine.setProperty('rate', 150)          
 
+listener = sr.Recognizer()
+
 def listen():
 	try:
 		with sr.Microphone() as source:                         # Microphone Access
