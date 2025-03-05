@@ -62,3 +62,15 @@ def histogram():
         plt.ylabel('Frequency')
         plt.title('Histogram')
         plt.show()
+
+ch = int(input("Enter 1 for Line Plot, 2 for Scatter Plot, 3 for Bar Plot, 4 for Histogram: "))
+if ch == 1:
+        line_plot()
+elif ch == 2:
+        scatter_plot()
+elif ch == 3:
+        bar_plot()
+elif ch == 4:
+        histogram()
+else:
+        print("Invalid Choice")
