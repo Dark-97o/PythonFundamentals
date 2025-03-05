@@ -63,7 +63,7 @@ def histogram():
         plt.title('Histogram')
         plt.show()
 
-ch = int(input("1 for Line Plot\n 2 for Scatter Plot\n 3 for Bar Plot\n 4 for Histogram: "))
+ch = int(input("Enter your choice:\n1 for Line Plot\n 2 for Scatter Plot\n 3 for Bar Plot\n 4 for Histogram: "))
 if ch == 1:
         line_plot()
 elif ch == 2:
