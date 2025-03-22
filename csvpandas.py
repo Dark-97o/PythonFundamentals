@@ -10,6 +10,7 @@ print(df)
 df = pd.read_csv(r"C:\Users\DELL\Downloads\emotion_dataset.csv")
 print("DataFrame loaded from CSV file:")
 print(df)
+
 from sklearn.datasets import load_iris
 iris = load_iris()
 print("Description of the Iris dataset:")

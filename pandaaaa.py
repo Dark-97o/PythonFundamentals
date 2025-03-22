@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = {'Name': ['Raj', 'Rahul', 'Riya', 'Rohan'],
+data = {'Name': ['Alice', 'Bob'],
         'Age': [46, 24, 23, 22],
-        'States': ['Punjab', 'Haryana', 'Delhi', 'UP']}
+        'States': ['New York','Los Angeles']}
 
 df = pd.DataFrame(data)
 print("DataFrame:")
@@ -16,7 +16,7 @@ print(df.loc[0])
 print(df.iloc[0])  
 print("\nFiltering Data:")
 print(df[df['Age'] > 30]) 
-df['Salary'] = [150000, 120000, 100000, 80000]
+df['Salary'] = [50000, 60000]
 print("\nDataFrame with New Column:")
 print(df)
 print("\nSummary Statistics:")
