@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 data = {'Name': ['Alice', 'Bob'],
-        'Age': [46, 24],
+        'Age': [25, 30],
         'States': ['New York','Los Angeles']}
 
 df = pd.DataFrame(data)
