@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+
+
 
 # data = { 'Name': ['Subhranil','Abhishek'],
 #         'Age':[30,46],
@@ -15,16 +18,24 @@ import matplotlib.pyplot as plt
 # # print(df.loc[1])
 # print(df.describe())
 
-sr = pd.Series([1,2,3,4,5])
-print(sr)
-print(sr.index)
-print(sr.values)
 
-arr = np.array([1,2,3,4,5])
-compare = sr == arr
-print(compare)
 
-sr2 = pd.Series([1,2,3], index = ['A','B','C'])
-print(sr2.index)
-print(sr2)
-print(sr2['B'])
+# sr = pd.Series([1,2,3,4,5])
+# print(sr)
+# print(sr.index)
+# print(sr.values)
+
+# arr = np.array([1,2,3,4,5])
+# compare = sr == arr
+# print(compare)
+
+# sr2 = pd.Series([1,2,3], index = ['A','B','C'])
+# print(sr2.index)
+# print(sr2)
+# print(sr2['B'])
+
+
+
+# df = pd.read_csv('https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv')
+# print(df)
+
