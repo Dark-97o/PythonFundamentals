@@ -1,8 +1,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-np.random.seed(0)
-data1 = np.random.randn(500)
+from scipy import optimize,stats
+
+# np.random.seed(0)
+# data1 = np.random.randn(500)
 # from sklearn.datasets import load_iris
 
 # iris = load_iris()
@@ -66,3 +68,24 @@ data1 = np.random.randn(500)
 # plt.title('Histogram')
 
 # plt.show()
+
+# arr3 = np.array([12,2,3,4,5])
+# # print(np.std(arr3))
+# # print(np.argmax(arr3))
+
+# arr2 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+# tarr2 = np.transpose(arr2)
+# print(np.transpose(arr2))
+# print(np.matmul(arr2,tarr2))
+# print(tarr2**2)
+
+def simple(x):
+    return x**2 + x*3 + 4
+
+result = optimize.minimize(simple, x0=0)
+
+print(result)
+print()
+print(result.x)
+print()
+print(result.fun)
