@@ -11,4 +11,6 @@ print(df)
 print(df['Name'])
 print(df.Age)
 df['Salary']=[10,20]
-print(df)
+# print(df)
+# print(df.loc[1])
+print(df.describe())
