@@ -10,3 +10,5 @@ df = pd.DataFrame(data)
 print(df)
 print(df['Name'])
 print(df.Age)
+df['Salary']=[10,20]
+print(df)
